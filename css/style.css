@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script:wght@500&display=swap');
 
 * {
-    margin: 2px;
+    margin: 1px;
+    padding: 1px;
+    border: 0;
     }
 
 body {
@@ -15,4 +17,23 @@ h1 {
     text-transform: uppercase;
     color: black;
     text-align: center;
+    height: 1px;
+    }
+
+h1, a{
+    text-decoration: none;
+}
+
+#menu {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+
+#menu li {
+    float: right;
+    margin: 15px;
+    text-decoration: none;
     }
